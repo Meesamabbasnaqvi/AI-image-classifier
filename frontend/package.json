@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://Meesamabbasnaqvi.github.io/AI-image-classifier/",
+  "homepage": "https://meesamabbasnaqvi.github.io/Ai-image-classifier/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

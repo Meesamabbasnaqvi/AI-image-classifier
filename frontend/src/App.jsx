@@ -87,7 +87,7 @@ function App() {
         }}
       />
 
-      <BrowserRouter>
+      <BrowserRouter basename="/Ai-image-classifier">
         <Routes>
           {/* Public Home Landing page */}
           <Route path="/" element={<Home />} />
