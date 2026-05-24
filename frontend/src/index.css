@@ -19,6 +19,25 @@
 
 .widht-box {
   display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.widht-box > div {
+  width: 100% !important;
+  max-width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .widht-box {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2.25rem;
+  }
+
+  .widht-box > div {
+    width: 25% !important;
+  }
 }
 
 @layer utilities {
