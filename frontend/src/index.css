@@ -17,27 +17,16 @@
   }
 }
 
-.widht-box {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
-.widht-box > div {
-  width: 100% !important;
-  max-width: 100%;
-}
-
-@media (min-width: 1024px) {
-  .widht-box {
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 2.25rem;
-  }
-
-  .widht-box > div {
-    width: 25% !important;
-  }
+/* Enable super-smooth momentum gesture scrolling on mobile touchscreens */
+.overflow-y-auto,
+.overflow-x-auto,
+.custom-scrollbar {
+  -webkit-overflow-scrolling: touch;
 }
 
 @layer utilities {
